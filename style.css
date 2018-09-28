@@ -215,15 +215,16 @@ width: 100%;
 
 .carousel-indicators > li {
 
-background-color: #000;
+background-color: #8C5237;
 }
 .carousel-control-prev-icon{
+  height: 30px;
   background-image: url(/img/fg.svg);
-  /* background-size: 100%; */
+
 }
 .carousel-control-next-icon{
+  height: 30px;
   background-image: url(/img/fd.svg);
-  /* background-size: 100%; */
 
 }
 .carousel-control-prev-icon:hover{
@@ -232,5 +233,5 @@ background-color: #000;
 }
 .carousel-control-next-icon:hover {
   transform: translateX(2px);
- 
+
 }
