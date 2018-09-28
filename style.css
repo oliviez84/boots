@@ -51,10 +51,13 @@ width: 100%;
 }
 
 
-@media all and (max-width: 700px){
+@media all and (max-width: 760px){
 .fab {
   font-size: 1.5rem;
  
+}
+.navbar-toggler {
+  display: none;
 }
 }
 /* ////////////////////////// hover /////////////////////////////////////// */
@@ -209,12 +212,25 @@ width: 100%;
 
 /* ///////////////////////////////////////// carousel ///////////////////////////////////////// */
 
-.black {
-  font-size: 5rem;
-    color:black;
-    
-}
+
 .carousel-indicators > li {
 
 background-color: #000;
+}
+.carousel-control-prev-icon{
+  background-image: url(/img/fg.svg);
+  /* background-size: 100%; */
+}
+.carousel-control-next-icon{
+  background-image: url(/img/fd.svg);
+  /* background-size: 100%; */
+
+}
+.carousel-control-prev-icon:hover{
+  transform: translateX(-2px);
+ 
+}
+.carousel-control-next-icon:hover {
+  transform: translateX(2px);
+ 
 }
