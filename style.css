@@ -213,25 +213,51 @@ width: 100%;
 /* ///////////////////////////////////////// carousel ///////////////////////////////////////// */
 
 
-.carousel-indicators > li {
+.carousel-indicators li {
+  height: 5px;
 
 background-color: #8C5237;
+
 }
+
 .carousel-control-prev-icon{
   height: 30px;
   background-image: url(/img/fg.svg);
-
+  transition: .3s;
 }
 .carousel-control-next-icon{
   height: 30px;
   background-image: url(/img/fd.svg);
-
+  transition: .3s;
 }
 .carousel-control-prev-icon:hover{
-  transform: translateX(-2px);
- 
-}
-.carousel-control-next-icon:hover {
-  transform: translateX(2px);
+  transform: translateX(-10px);
 
 }
+.carousel-control-next-icon:hover {
+  transform: translateX(10px);
+
+}
+.hovereffect2 {
+  width:100%;
+  height:90%;
+  float:left;
+  overflow:hidden;
+  position:relative;
+  text-align:center;
+  cursor:default;
+  }
+  .hovereffect2:hover img {
+    /* transform: translate3d(-10px,0,0); */
+    transform:scale(1.2);
+    }
+    .hovereffect2 img {
+      display:block;
+      position:relative;
+      -webkit-transition:all .4s linear;
+      transition:all .2s linear;
+      }
+      .form-control-range{
+        color: red;
+        
+      }
