@@ -6,4 +6,7 @@ $(this).parent().find(".fa-angle-double-down").removeClass("fa-angle-double-down
 }).on('hidden.bs.collapse', function(){
 $(this).parent().find(".fa-angle-double-up").removeClass("fa-angle-double-up").addClass("fa-angle-double-down");
 });
+
+
+
 });

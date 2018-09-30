@@ -38,6 +38,8 @@ color:white;
   color:black;
   border-bottom: 2px solid black;
 }
+
+
 .row img{
 width: 100%;
 transition:0.5s ease-in-out;  
@@ -257,7 +259,4 @@ background-color: #8C5237;
       -webkit-transition:all .4s linear;
       transition:all .2s linear;
       }
-      .form-control-range{
-        color: red;
-        
-      }
+  
